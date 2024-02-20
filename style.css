@@ -1,0 +1,196 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  background-color: #33BBC5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+  }
+
+nav li {
+  margin-bottom: 10px; 
+  position: relative;
+  }
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+  
+  }
+
+nav a:hover {
+  color: black;
+  }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #33BBC5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding-right: 51px;
+  }
+.dropdown a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  
+  }
+
+.dropdown a:hover {
+  color: black;
+  }
+
+nav li:hover .dropdown {
+  display: block;
+  }
+
+.logo2 img {
+  height: 150px;
+}
+.logo{
+  height: 100px;
+}
+
+
+.container{
+  background-image: url("Savin-NY-Website-Background-Web.jpg"); padding-top: 35px;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+}
+
+.answerButton{
+  background-color: #33BBC5;
+  border: none;
+  width: 200px; height: 50px; border-radius: 10px;
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 20px;
+  transition-duration: 0.8s;
+  text-decoration: none;
+  color: black;
+}
+.answerButton:hover{
+  color: white;
+}
+
+.container3{
+  background-color: #33BBC5;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.analysts-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  width: 80%;
+  margin: auto;
+}
+
+.box {
+  width: 100%; 
+  max-width: 300px; 
+  margin: auto;
+}
+
+.box1 {
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    width: 30%; 
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    width: calc(25% - 20px); 
+  }
+}
+
+
+
+
+.nav_foot a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.nav_foot a:hover{
+color: white;
+}
+
+/*
+.nav_foot>ul{
+padding-left: 420px;
+}*/
+
+
+
+.iconfoot{
+display: flex;
+justify-content: start;
+}
+/*
+.iconfoot{
+padding-left: 555px;
+}*/
+.iconItem{
+color: black;
+transition: 0.5s;
+}
+.iconItem:hover{
+transform: translateY(-10px);
+color: white;
+}
+
+.icon{
+list-style: none;
+margin-right: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    flex-direction: row; 
+  }
+
+  nav li {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav_foot>ul{
+    padding-left: 0px;
+  }
+
+  .iconfoot{
+    padding-left: 45px;
+  }
+}
+
