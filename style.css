@@ -61,7 +61,7 @@ nav li:hover .dropdown {
   }
 
 .logo2 img {
-  height: 150px;
+  height: 100px;
 }
 .logo{
   height: 100px;
@@ -71,10 +71,22 @@ nav li:hover .dropdown {
 .container{
   background-image: url("Savin-NY-Website-Background-Web.jpg"); padding-top: 35px;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 520px;
   text-align: center;
 }
 
+
+.textbox>p{
+  padding-top: 20px;
+  text-align: center;
+}
+.container2{
+  text-align: center;
+}
+
+.container2>div>ul{
+  list-style-type: none;
+}
 .answerButton{
   background-color: #33BBC5;
   border: none;
@@ -84,6 +96,7 @@ nav li:hover .dropdown {
   transition-duration: 0.8s;
   text-decoration: none;
   color: black;
+  margin-bottom: 20px;
 }
 .answerButton:hover{
   color: white;
