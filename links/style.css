@@ -5,6 +5,10 @@ body {
     padding: 0;
     margin: 0px;
   }
+
+  body>h1{
+    text-align: center;
+  }
 .Navbar {
     background-color: #33BBC5;
     padding: 10px;
@@ -68,6 +72,9 @@ nav li:hover .dropdown {
   .container{
     height: 600px;
   }
+  .container2{
+    padding-left: 15px;
+  }
 
   .container2::after{
     content: "";
@@ -115,7 +122,7 @@ nav li:hover .dropdown {
 
 .icon{
   list-style: none;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
   @media screen and (min-width: 768px) {
@@ -128,8 +135,19 @@ nav li:hover .dropdown {
     }
   }
 
+  @media screen and (min-width: 768px) {
+    .nav_foot>ul{
+      padding-left: 0px;
+    }
+  
+    .iconfoot{
+      padding-left: 135px;
+    }
+  }
+  
+
   .logo2 img {
-    height: 150px;
+    height: 100px;
   }
   .logo{
     height: 100px;
